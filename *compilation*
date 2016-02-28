@@ -1,0 +1,10 @@
+-*- mode: compilation; default-directory: "~/given/" -*-
+Compilation started at Thu Dec 10 20:36:41
+
+make -k 
+g++ -Wall -c producer.cc helper.cc
+g++ -Wall -o producer producer.o helper.o
+g++ -Wall -o consumer consumer.o helper.o
+g++ -Wall -o start start.o helper.o
+
+Compilation finished at Thu Dec 10 20:36:41
